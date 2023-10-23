@@ -1,7 +1,7 @@
 {
   "name": "Home Assistant Dev",
   "context": "..",
-  "dockerFile": "../Dockerfile.dev",
+  "dockerFile": "Dockerfile.dev",
   "postCreateCommand": "script/setup",
   "postStartCommand": "script/bootstrap",
   "containerEnv": { "DEVCONTAINER": "1" },
